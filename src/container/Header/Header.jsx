@@ -13,7 +13,7 @@ const Header = () => (
         <span className='app__header-h1'>
             {/* Style will be inherited from the parent element */}
             <Typewriter
-              words={['genuinos', 'reales', 'únicos', 'originales', 'auténticos']}
+              words={['genuinos', 'reales', 'frescos', 'ricos', 'únicos']}
               loop={5}
               cursor
               cursorStyle='_'
