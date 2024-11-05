@@ -103,6 +103,12 @@
 
     .selectWrapper {
         width: 100%; /* Ajusta el ancho de cada contenedor de select */
+        margin-bottom: 10px;
+    }
+
+    .buttonContainer{
+        max-width: 90%;
+        margin: 0 auto;
     }
 
   }
