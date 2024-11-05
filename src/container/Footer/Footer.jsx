@@ -29,12 +29,6 @@ const Footer = () => (
         <p className='p__opensans'>12:00 pm - 15:00pm</p>        
       </div>
     </div>
-
-    <div className='footer__copyright'>
-      <p className='p__opensans'>2024 World Plate. Todos los derechos reservados.</p>
-    </div>
-
-
   </div>
 );
 
