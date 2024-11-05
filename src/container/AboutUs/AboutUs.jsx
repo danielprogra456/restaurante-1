@@ -21,7 +21,7 @@ const AboutUs = () => (
 
       <div className='app__aboutus-content_history'>
         <h1 className='headtext__cormorant'>Nuestra historia</h1>
-        <p className='p__opensans'>Nuestra aventura comenzó con una pasión por la comida y el deseo de compartirla con nuestra comunidad. El restaurante se ha convertido en un lugar emblemático en Madrid, donde cada ingrediente se selecciona cuidadosamente y se transforma en creaciones que despiertan los sentidos.</p>
+        <p className='p__opensans'>Nuestra aventura comenzó con una pasión por la comida y el deseo de compartirla con nuestra comunidad. El restaurante se ha convertido en un lugar emblemático en Italia, donde cada ingrediente se selecciona cuidadosamente y se transforma en creaciones que despiertan los sentidos.</p>
       </div>
     </div>
   </div>
