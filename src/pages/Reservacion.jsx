@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 export const ReservationPage = () => {
 
   useEffect(() => {
-    document.title = 'World Planet - Reservación';
+    document.title = 'World Plate - Reservación';
   }, []);
 
   const [date, setDate] = useState(new Date());  // Estado para la fecha

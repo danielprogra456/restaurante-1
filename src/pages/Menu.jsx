@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 export const Menu = () => {
 
   useEffect(() => {
-    document.title = 'World Planet - Menú';
+    document.title = 'World Plate - Menú';
   }, []);
 
   return(

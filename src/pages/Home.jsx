@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 export const Home = () => {
 
   useEffect(() => {
-    document.title = 'World Planet - Inicio';
+    document.title = 'World Plate - Inicio';
   }, []);
 
   return(

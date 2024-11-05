@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 export const Carta = () => {
   useEffect(() => {
-    document.title = 'World Planet - Carta';
+    document.title = 'World Plate - Carta';
   }, []);
 
   return(
