@@ -10,7 +10,7 @@ export const Carta = () => {
   }, []);
 
   return(
-  <div style={{ background: '#F7F6F5', marginTop: "60px", paddingTop: "20px" }}>
+  <div style={{ background: '#202123', marginTop: "60px", paddingTop: "20px" }}>
     <Navbar />
     <CartaConjunto/>
     <CartaPrincipal/>

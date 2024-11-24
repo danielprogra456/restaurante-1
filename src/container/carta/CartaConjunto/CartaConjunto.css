@@ -3,36 +3,36 @@
   max-width: 45%;
 }
   
-  h2 {
+.carta_title {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #5e5e5e;
+    color: var(--color-golden);
     font-weight: bold;
-  }
+}
   
   .menu-list {
     list-style-type: none;
     padding: 0;
   }
   
-  .menu-item {
+  .menu-item_aperitivo {
     display: flex;
     color: #8E8A85;
     justify-content: space-between;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #DCCA87;
     padding: 25px 0;
     font-size: 18px;
   }
   
-  .menu-name {
+  .menu-name_aperitivos {
     flex: 1;
     margin-right: 20px;
-    color: #8E8A85;
+    color: #dcdcdc;
   }
   
-  .menu-price {
+  .menu-price_aperitivos {
     font-weight: bold;
-    color: #8E8A85;
+    color: #dcdcdc;
     white-space: nowrap;
   }  
   /* Responsividad */

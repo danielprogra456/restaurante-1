@@ -4,6 +4,10 @@
     padding-bottom: 70px;
   }
 
+  .custom__button2{
+    margin-top: 35px
+  }
+
 .link-container {
     display: flex;
     justify-content: center; 

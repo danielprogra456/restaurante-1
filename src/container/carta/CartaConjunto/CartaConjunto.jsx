@@ -27,12 +27,12 @@ const menuItems = [
 const CartaConjunto = () => {
   return (
     <div className="menu-container ">
-      <h2>Aperitivos</h2>
+      <h2 className='carta_title'>Aperitivos</h2>
       <ul className="menu-list">
         {menuItems.map((item, index) => (
-          <li key={index} className="menu-item">
-            <span className="menu-name">{item.name}</span>
-            <span className="menu-price">{item.price}</span>
+          <li key={index} className="menu-item_aperitivo">
+            <span className="menu-name_aperitivos">{item.name}</span>
+            <span className="menu-price_aperitivos">{item.price}</span>
           </li>
         ))}
       </ul>

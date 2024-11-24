@@ -28,18 +28,18 @@ const menuItems = [
 const CartaPostre = () => {
   return (
     <div className="menu-container ">
-      <h2>Postres</h2>
+      <h2 className='carta_title'>Postres</h2>
       <ul className="menu-list">
         {menuItems.map((item, index) => (
-          <li key={index} className="menu-item">
-            <span className="menu-name">{item.name}</span>
-            <span className="menu-price">{item.price}</span>
+          <li key={index} className="menu-item_aperitivo">
+            <span className="menu-name_aperitivos">{item.name}</span>
+            <span className="menu-price_aperitivos">{item.price}</span>
           </li>
         ))}
       </ul>
 
       <div className="link-container">
-        <Link to="/reservacion" className='Link-Carta' target="_blank">Reservar</Link>
+        <Link to="/reservacion" className='custom__button custom__button2' target="_blank">Reservar Mesa</Link>
       </div>
 
     </div>

@@ -26,7 +26,7 @@ const Gallery = () => {
     <div className='app__gallery flex__center section__padding'>
       <div className='app__gallery-content'>
         <h1 className='headtext__cormorant'>Momentos Compartidos</h1>
-        <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem', marginBottom: '2rem', textAlign: 'justify' }} >
+        <p className='p__opensans2' style={{ color: '#AAA', marginTop: '2rem', marginBottom: '2rem', textAlign: 'justify' }} >
         Descubre nuestra galería de fotos, donde nuestros queridos clientes comparten sus momentos especiales disfrutando de nuestra comida. ¡Nos encanta ver cómo viven su experiencia en nuestro restaurante! Si has tomado alguna foto, no olvides etiquetarnos en Instagram para que podamos incluirla aquí.
         </p>
         <Link to="/reservacion" className='custom__button' target="_blank">Haz tu reservación</Link>

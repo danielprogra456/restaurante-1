@@ -17,7 +17,7 @@
     padding: 50px 0;
     background-color: #202123;
     margin-top: 60px; /* Ajusta según la altura de tu navbar */
-    height: 100vh;
+    height: 100%;
     /* display: flex;
     justify-content: center; */
 }
@@ -84,6 +84,24 @@
     color: #555;
     margin-top: 20px;
 }
+
+.inputContainer {
+    margin-bottom: 20px;
+  }
+  
+  .inputWrapper {
+    margin-bottom: 15px;
+    text-align: start;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Asegura que el ancho incluye padding y bordes */
+    font-size: 16px;
+  }
 
 @media (max-width: 768px) {
     .container {

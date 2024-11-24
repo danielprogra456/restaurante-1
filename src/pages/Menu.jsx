@@ -12,7 +12,7 @@ export const Menu = () => {
   }, []);
 
   return(
-    <div style={{ background: 'black', marginTop: "60px", paddingTop: "20px"}} >
+    <div style={{ background: "rgb(19, 19, 19)", marginTop: "60px", paddingTop: "20px" }} >
       <Navbar />
 
       <h1 className='headtext__cormorant2'>Aperitivos</h1>
