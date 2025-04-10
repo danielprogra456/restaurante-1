@@ -5,6 +5,10 @@ import {Home} from './pages/Home';
 import {Menu} from './pages/Menu';
 import {Carta} from './pages/Carta'
 import {ReservationPage} from './pages/Reservacion';
+import {Login} from './pages/Login';
+import {Admin} from './pages/Admin';
+import {AdminReservations} from './pages/AdminReservations';
+import { ProtectedRoute } from './components/ProtectedRoute/ProtectedRoute';
 
 const App = () => {
   return (
@@ -16,6 +20,17 @@ const App = () => {
                 <Route path='/menu' element={<Menu />} />
                 <Route path='/carta' element={<Carta />} />
                 <Route path='/reservacion' element={<ReservationPage />} />
+                <Route path='/login' element={<Login />} />
+                <Route path='/admin' element={
+                  <ProtectedRoute requiredRole="admin">
+                    <Admin />
+                  </ProtectedRoute>
+                } />
+                <Route path='/admin/reservations' element={
+                  <ProtectedRoute requiredRole={['admin', 'staff']}>
+                    <AdminReservations />
+                  </ProtectedRoute>
+                } />
             </Routes>
         </Router>
   );
